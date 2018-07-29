@@ -6,7 +6,7 @@ const ListItemComponent = ({event}) => {
   const url = event.url;
 
   return(
-    <ListItem thumbnail>
+    <ListItem>
       <Body>
         <Text>{event.title}</Text>
         <Text note>{event.start_time}</Text>
@@ -14,10 +14,11 @@ const ListItemComponent = ({event}) => {
       </Body>
       <Right>
         <Button
-          dark style={{ width: 60, paddingLeft: 15 }}
+          bordered
+          dark style={{ width: 60, height: 40, paddingLeft: 1 }}
           onPress={() => Linking.openURL(url)}
         >
-          <Text style={{ color: 'white' }}>
+          <Text style={{ fontSize: 12 }}>
             View
           </Text>
         </Button>
