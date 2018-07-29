@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
-import { Container, Content, Header, Body, Thumbnail } from 'native-base';
+import { StyleSheet, View, ScrollView } from 'react-native';
+import { Container, Content, Header, Body, Thumbnail, Text } from 'native-base';
 
 import CardComponent from './CardComponent';
 

@@ -4,7 +4,7 @@ import { StyleSheet, View, ScrollView } from 'react-native';
 import ListItemComponent from './ListItemComponent';
 
 const ListComponent = ({events}) => {
-  const eventItems = events.map(event => (
+  const eventDetails = events.map(event => (
     // console.log('EVENT ', event)
     <ListItemComponent
       key={event.id}
@@ -15,7 +15,7 @@ const ListComponent = ({events}) => {
   return(
     <ScrollView>
       <View style={styles.containerStyle}>
-        {eventItems}
+        {eventDetails}
       </View>
     </ScrollView>
   )
