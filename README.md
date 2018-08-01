@@ -7,6 +7,17 @@
 - [React Native: Building a Simple YouTube Search App, Barry Michael Doyle](https://www.youtube.com/watch?v=cnjsRwsJUUQ&index=1&list=PL06z42zB6YZ_G3sjHIuv6uj9bA76c9v7V)
 - [Icons](https://oblador.github.io/react-native-vector-icons/)
 
+## Mockups
+![](images/upcoming.png)
+
+![](images/explore.png)
+
+![](images/saved.png)
+
+![](images/notifications.png)
+
+![](images/profile.png)
+
 ## Expo
 - expo init [name_of_project]
 - cd [name_of_project]
